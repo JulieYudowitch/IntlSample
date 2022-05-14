@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/dist/client/image";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsGlobe2 } from 'react-icons/Bs';
+import { BsGlobe2 } from 'react-icons/bs';
 import React from 'react';
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
