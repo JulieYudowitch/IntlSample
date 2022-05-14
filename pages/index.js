@@ -23,17 +23,25 @@ export default function Home(props) {
     <div className={styles.homePage} id="pageTop">
       <Head>
         <meta property="og:title" content="International Business" />
-        <meta property="og:image" content="./insert URL here" />
+        <meta property="og:image" content=".//project.webp" />
         <meta property="og:description" content={t("home:tagContent")} />
-        <meta property="og:url" content="insert URL here" />
+        <meta
+          property="og:url"
+          content="https://internationalbusiness.netlify.app/"
+        />
+        <link
+          rel="alternate"
+          href="https://internationalbusiness.netlify.app/es/"
+          hrefLang="es"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="681" />
         <meta property="og:image:alt" content="" />
         <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="./insert URL here" />
+        <meta name="twitter:card" content="./project.webp" />
         <meta name="twitter:title" content="International Business" />
         <meta name="twitter:description" content={t("home:tagContent")} />
-        <meta name="twitter:image" content="./" />
+        <meta name="twitter:image" content="/project.webp" />
         <meta name="description" content={t("home:tagContent")} />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#000000" />
