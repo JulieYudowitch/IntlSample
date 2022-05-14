@@ -1,0 +1,138 @@
+.contactPageContent {
+  display: flex;
+  justify-content: center;
+  padding: 250px 0px 50px 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 13, 29);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+.field {
+  margin: 20px;
+  background-color: rgb(230, 229, 227);
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #184027;
+  width: 100%;
+  margin: 0;
+}
+
+.messageField {
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(230, 229, 227);
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #184027;
+  width: 100%;
+  margin: 0;
+}
+
+.send {
+  margin: 20px;
+  padding: 15px;
+  width: 100px;
+  background-color: rgb(230, 229, 227);
+  cursor: pointer;
+  color: #184027;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  color: #184027;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+@media (max-width: 1250px) {
+  .contactInfo {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .contactInfo {
+    font-size: 20px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 950px) {
+  .contactInfo {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .contactPageContent {
+    padding: 150px 10px 80px 50px;
+  }
+}
+
+@media (max-width: 850px) {
+ .form {
+   padding: 30px;
+ }
+  .send {
+    font-size: 16px;
+  }
+  .reachOut {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contactInfo {
+    font-size: medium;
+    margin-top: 30px;
+  }
+  .contactPageContent {
+    padding: 50px;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    padding: 20px;
+}
+  .reachOut {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {  
+  .contactPageContent {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactInfo {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .reachOut {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 290px) {
+  .reachOut {
+    font-size: 22px;
+  }
+}

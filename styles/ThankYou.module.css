@@ -1,0 +1,37 @@
+.thankYou {
+  padding: 100px;
+  padding-top:200px;
+  color: #0e1d30;
+  height: 600px;
+}
+
+.thankYouMessage {
+  background-color: rgba(159, 197, 209, 0.4);
+  padding: 40px;
+  margin: 40px;
+  font-size: 4vh;
+}
+
+@media (max-width: 800px) {
+  .thankYou {
+    padding-top: 150px;;
+   
+  }
+  .thankYouMessage {
+    
+  }
+}
+
+@media (max-width: 600px) {
+  .thankYou {
+   padding: 150px 15px;
+    
+  }
+}
+
+@media (max-width: 400px) {
+  .thankYou {
+    padding: 150px 10px;
+
+  }
+}
