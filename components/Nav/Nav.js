@@ -55,6 +55,14 @@ function Nav(props) {
               onClick={handleMenuClick}
               id={showMobileNav ? styles.hidden : ""}
             >
+              <div className={styles.hiddenMenu}>
+                <div
+                  className={styles.mobilemenuicon}
+                  onClick={() => setShowMobileNav(!showMobileNav)}
+                >
+                  <AiOutlineMenu color="#d4d9df" />
+                </div>
+              </div>
               <div>
                 <Link
                   href="/"
@@ -86,7 +94,6 @@ function Nav(props) {
                   <p className={styles.navlinkname}>{t("common:contact")}</p>
                 </Link>
               </div>
-              
             </div>
 
             <div
