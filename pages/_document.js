@@ -9,6 +9,11 @@ class MyDocument extends Document {
         <Head>
           <meta name="theme-color" content="#000000" />
           <meta name="robots" content="index, follow" />
+          <link
+            rel="alternate"
+            href="https://internationalbusiness.netlify.app/es/"
+            hrefLang="es"
+          />
           <link rel="manifest" href="/manifest.json" />
           <meta property="og:image" content="./" />
           <meta property="og:url" content="/project.webp" />

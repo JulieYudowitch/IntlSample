@@ -29,11 +29,6 @@ export default function Home(props) {
           property="og:url"
           content="https://internationalbusiness.netlify.app/"
         />
-        <link
-          rel="alternate"
-          href="https://internationalbusiness.netlify.app/es/"
-          hrefLang="es"
-        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="681" />
         <meta property="og:image:alt" content="" />
