@@ -63,30 +63,6 @@ function Nav(props) {
                   <AiOutlineMenu color="#d4d9df" />
                 </div>
               </div>
-              <div className={styles.hiddenMenuLang}>
-                {locale === "en" && (
-                  <div
-                    className={styles.langbutt}
-                    onClick={() => setShowMobileNav(false)}
-                  >
-                    <BsGlobe2 />
-                    <Link href={asPath} locale="es">
-                      <a className={styles.langbutt}>Español</a>
-                    </Link>
-                  </div>
-                )}
-                {locale === "es" && (
-                  <div
-                    className={styles.langbutt}
-                    onClick={() => setShowMobileNav(false)}
-                  >
-                    <BsGlobe2 />
-                    <Link href={asPath} locale="en">
-                      <a className={styles.langbutt}>English</a>
-                    </Link>
-                  </div>
-                )}
-              </div>
               <div>
                 <Link
                   href="/"
