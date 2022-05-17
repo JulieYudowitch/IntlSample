@@ -14,7 +14,7 @@ function ThankYou(props) {
       <Nav />
       <div className={styles.thankYou}>
         <div>
-          <h1 className={styles.thankYouMessage}>Thank-you for your message. I will be in touch shortly.</h1>
+          <h1 className={styles.thankYouMessage}>Thank-you for your message. We will be in touch shortly.</h1>
         </div>
       </div>
       <Footer />

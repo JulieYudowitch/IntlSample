@@ -57,7 +57,7 @@ function Contact(props) {
           <input
             type="hidden"
             name="_next"
-            value="https://insert URL here/thank-you"
+            value="https://internationalbusiness.netlify.app/thank-you"
           ></input>
           <button type="submit" className={styles.send}>
             {t("contact:send")}
