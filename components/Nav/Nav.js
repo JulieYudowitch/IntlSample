@@ -2,7 +2,7 @@ import styles from "./Nav.module.css";
 import Link from "next/link";
 import { useState, useEffect, useRef } from "react";
 import Image from "next/dist/client/image";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsGlobe2 } from 'react-icons/bs';
 import React from 'react';
 import { useRouter } from "next/router";
@@ -60,7 +60,7 @@ function Nav(props) {
                   className={styles.mobilemenuicon}
                   onClick={() => setShowMobileNav(!showMobileNav)}
                 >
-                  <AiOutlineMenu color="#d4d9df" />
+                  <AiOutlineClose color="#d4d9df" />
                 </div>
               </div>
               <div>
