@@ -23,7 +23,7 @@ export default function Home(props) {
     <div className={styles.homePage} id="pageTop">
       <Head>
         <meta property="og:title" content="International Business" />
-        <meta property="og:image" content=".//project.webp" />
+        <meta property="og:image" content="./project.webp" />
         <meta property="og:description" content={t("home:tagContent")} />
         <meta
           property="og:url"

@@ -83,6 +83,16 @@ function Nav(props) {
                   <p className={styles.navlinkname}>{t("common:about")}</p>
                 </Link>
               </div>
+              <div>
+                <Link
+                  href="/shop"
+                  ref={menuref}
+                  passHref
+                  className={styles.navlink}
+                >
+                  <p className={styles.navlinkname}>{t("common:shop")}</p>
+                </Link>
+              </div>
 
               <div>
                 <Link
