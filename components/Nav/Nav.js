@@ -83,7 +83,7 @@ function Nav(props) {
                   <p className={styles.navlinkname}>{t("common:about")}</p>
                 </Link>
               </div>
-              <div>
+              {/*<div>
                 <Link
                   href="/shop"
                   ref={menuref}
@@ -92,7 +92,7 @@ function Nav(props) {
                 >
                   <p className={styles.navlinkname}>{t("common:shop")}</p>
                 </Link>
-              </div>
+  </div>*/}
 
               <div>
                 <Link
