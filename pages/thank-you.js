@@ -3,7 +3,7 @@ import Footer from '../components/Footer/Footer'
 import Head from "next/head";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import Nav from '../components/Nav/Nav3';
+import Nav from '../components/Nav/Nav';
 
 export async function getStaticProps({ locale }) {
   return {
