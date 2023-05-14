@@ -3,6 +3,7 @@ import * as React from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { appWithTranslation } from "next-i18next";
+import Nav from "../components/Nav/Nav";
 
 config.autoAddCss = false;
 
@@ -26,7 +27,7 @@ const App = ({ Component, pageProps }) => {
     };
   }, [clearTimer]);
 
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />;  
 };
 
 export default appWithTranslation(App);

@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import Banner from "../components/Banner/Banner";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import HomeContent from "../components/HomeContent/HomeContent";
+import Nav from "../components/Nav/Nav";
 
 export async function getStaticProps({ locale }) {
   return {
@@ -42,30 +42,9 @@ export default function Home(props) {
         <meta name="theme-color" content="#000000" />
         <title>International Business</title>
       </Head>
-      <div className={styles.headerContainer}>
-        <Nav className={styles.nav} />
-        <Banner className={styles.banner} />
-      </div>
-
-      <div className={styles.homeGrid}>
-        <div className={styles.homeImgContainer}>
-          <div className={styles.homeImg}>
-            <Image
-              src="/bags.webp"
-              alt=""
-              width="600"
-              height="423"
-              placeholder="blur"
-              blurDataURL="/bags.webp"
-            />
-          </div>
-          <p>{t("home:intro")}</p>
-        </div>
-        <div className={styles.homeIntroCard}>
-          <h2 className={styles.homeIntro}>{t("home:info")}</h2>
-          <p>{t("home:content")}</p>
-        </div>
-      </div>
+      <Nav />
+      <Banner className={styles.banner} />
+      <HomeContent />
       <Footer />
     </div>
   );

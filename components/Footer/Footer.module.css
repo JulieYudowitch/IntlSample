@@ -1,9 +1,9 @@
 .footer {
-    border-top: 0.5px solid grey;
+    border-top: 0.5px solid rgb(14, 14, 14);
     color: #0e1d30;
 }
 .footContent {   
-    background-color: #a4b9d4;
+    background-color: #a0a3a2;
     margin: 0;
     padding: 80px;
 }
