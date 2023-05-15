@@ -16,8 +16,9 @@ function Banner() {
           className={styles.bannerImg}
         />
       </div>
-
-      <h1 className={styles.homeTitleDescript}>{t("common:description")}</h1>
+      <h1 className={styles.homeTitle}>INTERNATIONAL BUSINESS</h1>
+      <h2 className={styles.homeTitleImgDescript}>{t("common:description")}</h2>
+      <h2 className={styles.homeTitleDescript}>{t("common:description")}</h2>
     </header>
   );
 }

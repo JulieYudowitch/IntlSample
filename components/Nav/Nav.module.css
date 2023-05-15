@@ -130,3 +130,9 @@ margin-left: 10px;
     margin: 30px 0px;
   }
 }
+
+@media (max-width: 650px) {
+  .navBarCont {
+    border-bottom: 1px solid #00bf63;
+  }
+}

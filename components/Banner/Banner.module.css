@@ -13,7 +13,11 @@
   display: flex;
 }
 
-.homeTitleDescript {
+.homeTitle {
+  display: none;
+}
+
+.homeTitleImgDescript {
   font-size: 48px;
   letter-spacing: 11px;
   font-weight: 400;
@@ -24,101 +28,98 @@
   right: 2%;
 }
 
+.homeTitleDescript {
+  display: none;
+}
+
 @media (max-width: 1650px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     font-size: 40px;
   }
 }
 
 @media (max-width: 1500px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     font-size: 35px;
   }
 }
 
 @media (max-width: 1350px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     font-size: 30px;
   }
 }
 
 @media (max-width: 1250px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     font-size: 30px;
     letter-spacing: 7px;
   }
 }
 
 @media (max-width: 1100px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     font-size: 29px;
     letter-spacing: 6px;
   }
 }
 
 @media (max-width: 1000px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     letter-spacing: 5px;
     font-size: 28px;
-  }
-}
-
-@media (max-width: 900px) {
-  .homeTitleDescript {
-    letter-spacing: 3px;
-  }
-}
-
-@media (max-width: 800px) {
-  .homeTitleDescript {
-    letter-spacing: 1px;
     top: 18%;
   }
 }
 
+@media (max-width: 900px) {
+  .homeTitleImgDescript {
+    letter-spacing: 3px;
+    
+  }
+}
+
+@media (max-width: 800px) {
+  .homeTitleImgDescript {
+    letter-spacing: 1px;
+    top: 16%;
+  }
+}
+
 @media (max-width: 700px) {
-  .homeTitleDescript {
+  .homeTitleImgDescript {
     letter-spacing: 0px;
   }
 }
 
 @media (max-width: 650px) {
-  .homeTitleDescript {
-    font-size: 25px;
+  .banner {
+    padding-top: 15px;
   }
-}
-
-@media (max-width: 600px) {
-  .homeTitleDescript {
-    font-size: 23px;
+  .homeTitle {
+    display: block;
+    text-align: center;
+    margin: 0;
   }
-}
-
-@media (max-width: 550px) {
   .homeTitleDescript {
-    font-size: 21px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
   }
-
+  .homeTitleImgDescript {
+    display: none;
+  }
   .bannerImgContainer {
-    display: flex;
-    overflow-x: hidden;
+    display: none;
   }
 }
 
-@media (max-width: 500px) {
-  .homeTitleDescript {
-    font-size: 20px;
-  }
-}
 
-@media (max-width: 450px) {
-  .homeTitleDescript {
-    font-size: 18px;
-  }
-}
 
-@media (max-width: 400px) {
-  .homeTitleDescript {
-    font-size: 16px;
-  }
-}
+
+
+
+
+
+
