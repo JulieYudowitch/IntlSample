@@ -21,10 +21,10 @@ function Banner() {
       <h2 className={styles.homeTitleDescript}>{t("common:description")}</h2>
       <div className={styles.bannerImg2Container}>
         <Image
-          src="/banner2.webp"
+          src="/banner3.webp"
           alt=""
           priority
-          width="1920"
+          width="1248"
           height="256"
           className={styles.bannerImg2}
         />
