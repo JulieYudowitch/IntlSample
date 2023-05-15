@@ -1,7 +1,7 @@
 .navBarCont {
   display: flex;
   color: #092649;
-  padding: 5px 25px 10px 15px;
+  padding: 10px 20px 10px 15px;
 }
 
 .leftSide {
@@ -20,6 +20,7 @@
 .switchLang {
   display: flex;
   justify-content: right;
+  padding-top: 10px;
 }
 
 .langSelect {
@@ -77,6 +78,10 @@
 }
 
 @media (max-width: 800px) {
+.langSelect {
+  font-size: 18px;
+}
+
   .mobileMenuIcon {
     display: flex;
     margin-bottom: 20px;
