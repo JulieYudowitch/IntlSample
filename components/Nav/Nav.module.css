@@ -150,5 +150,6 @@ font-size: 18px;
 @media (max-width: 650px) {
   .navBarCont {
     border-bottom: 1px solid #00bf63;
+    padding-bottom: 3px;
   }
 }
