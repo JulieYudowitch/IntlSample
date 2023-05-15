@@ -80,6 +80,7 @@
 @media (max-width: 800px) {
 .langSelect {
   font-size: 18px;
+  margin-left: 10px;
 }
 
   .mobileMenuIcon {
