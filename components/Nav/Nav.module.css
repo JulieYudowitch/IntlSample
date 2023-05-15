@@ -27,6 +27,7 @@
 .langSelect {  
   color: #092649;
   margin-left: 5px;
+  font-size: 18px;
 }
 
 .langActive {
@@ -37,6 +38,7 @@
 .langDivider {
 margin: 0;
 margin-left: 10px;
+font-size: 18px;
 }
 
 .menu {
@@ -86,12 +88,12 @@ margin-left: 10px;
 
 @media (max-width: 800px) {
 .langSelect {
-  font-size: 18px;  
+  font-size: 16px;  
 }
 
 
 .langDivider {
-  font-size: 18px;
+  font-size: 16px;
 }
 
   .mobileMenuIcon {
