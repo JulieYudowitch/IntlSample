@@ -81,7 +81,7 @@ function Nav(props) {
         <div className={styles.menu} id={showMobileNav ? styles.hidden : ""}>
           <div className={styles.hiddenMenu}>
             <div
-              className={styles.mobileMenuIcon}
+              className={styles.mobileMenuClose}
               onClick={() => setShowMobileNav(!showMobileNav)}
             >
               <AiOutlineClose color="#0e1d30" />
@@ -89,7 +89,9 @@ function Nav(props) {
           </div>
           <div>
             <Link href="/" ref={menuref} passHref className={styles.navLink}>
-              <p className={styles.navLinkName}>{t("common:home")}</p>
+              <p className={styles.navLinkName} onClick={handleMenuClick}>
+                {t("common:home")}
+              </p>
             </Link>
           </div>
           <div>
@@ -99,7 +101,9 @@ function Nav(props) {
               passHref
               className={styles.navLink}
             >
-              <p className={styles.navLinkName}>{t("common:about")}</p>
+              <p className={styles.navLinkName} onClick={handleMenuClick}>
+                {t("common:about")}
+              </p>
             </Link>
           </div>
           <div>
@@ -109,7 +113,9 @@ function Nav(props) {
               passHref
               className={styles.navLink}
             >
-              <p className={styles.navLinkName}>{t("common:shop")}</p>
+              <p className={styles.navLinkName} onClick={handleMenuClick}>
+                {t("common:shop")}
+              </p>
             </Link>
           </div>
           <div>
@@ -119,7 +125,9 @@ function Nav(props) {
               passHref
               className={styles.navLink}
             >
-              <p className={styles.navLinkName}>{t("common:contact")}</p>
+              <p className={styles.navLinkName} onClick={handleMenuClick}>
+                {t("common:contact")}
+              </p>
             </Link>
           </div>
         </div>
