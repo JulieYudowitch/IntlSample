@@ -58,7 +58,7 @@ function Nav(props) {
               </a>
             </Link>
           </div>
-          <p className={styles.langSelect}>|</p>
+          <p className={styles.langDivider}>|</p>
           <div className={styles.langSelect}>
             <Link href={asPath} locale="en">
               <a

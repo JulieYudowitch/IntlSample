@@ -21,15 +21,22 @@
   display: flex;
   justify-content: right;
   padding-top: 10px;
+  align-items: top;
 }
 
-.langSelect {
-  margin: 0;
+.langSelect {  
   color: #092649;
+  margin-left: 5px;
 }
 
 .langActive {
   color: #1b5b3c;
+  margin-left: 5px;
+}
+
+.langDivider {
+margin: 0;
+margin-left: 10px;
 }
 
 .menu {
@@ -79,8 +86,12 @@
 
 @media (max-width: 800px) {
 .langSelect {
+  font-size: 18px;  
+}
+
+
+.langDivider {
   font-size: 18px;
-  margin-left: 10px;
 }
 
   .mobileMenuIcon {
