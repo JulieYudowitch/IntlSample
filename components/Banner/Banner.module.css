@@ -13,6 +13,10 @@
   display: flex;
 }
 
+.bannerImg2Container {
+  display: none;
+}
+
 .homeTitle {
   display: none;
 }
@@ -26,6 +30,7 @@
   top: 20%;
   left: 2%;
   right: 2%;
+  color: white;
 }
 
 .homeTitleDescript {
@@ -105,13 +110,16 @@
     display: block;
     text-align: center;
     font-size: 24px;
-    margin: 0;
+    margin: 0px 0px 10px 0px;
   }
   .homeTitleImgDescript {
     display: none;
   }
   .bannerImgContainer {
     display: none;
+  }
+  .bannerImg2Container {
+    display: flex;
   }
 }
 @media (max-width: 400px) {

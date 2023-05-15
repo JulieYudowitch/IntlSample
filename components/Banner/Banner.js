@@ -19,6 +19,16 @@ function Banner() {
       <h1 className={styles.homeTitle}>INTERNATIONAL BUSINESS</h1>
       <h2 className={styles.homeTitleImgDescript}>{t("common:description")}</h2>
       <h2 className={styles.homeTitleDescript}>{t("common:description")}</h2>
+      <div className={styles.bannerImg2Container}>
+        <Image
+          src="/banner2.webp"
+          alt=""
+          priority
+          width="1920"
+          height="256"
+          className={styles.bannerImg2}
+        />
+      </div>
     </header>
   );
 }
