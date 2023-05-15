@@ -89,6 +89,9 @@ font-size: 18px;
 }
 
 @media (max-width: 800px) {
+  .navBarCont {
+    padding-bottom: 4px;
+  }
 .switchLang {
   display: none;
 }
@@ -116,6 +119,7 @@ font-size: 18px;
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
   }
 
   .menu {
