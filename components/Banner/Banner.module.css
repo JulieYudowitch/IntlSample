@@ -31,6 +31,7 @@
   left: 2%;
   right: 2%;
   color: white;
+  -webkit-text-stroke: .5px #00bf63;
 }
 
 .homeTitleDescript {
