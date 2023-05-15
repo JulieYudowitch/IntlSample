@@ -70,12 +70,12 @@ function Nav(props) {
               </a>
             </Link>
           </div>
-          <div
-            className={styles.mobileMenuIcon}
-            onClick={() => setShowMobileNav(!showMobileNav)}
-          >
-            <AiOutlineMenu color="#0e1d30" />
-          </div>
+        </div>
+        <div
+          className={styles.mobileMenuIcon}
+          onClick={() => setShowMobileNav(!showMobileNav)}
+        >
+          <AiOutlineMenu color="#0e1d30" />
         </div>
 
         <div className={styles.menu} id={showMobileNav ? styles.hidden : ""}>
@@ -129,6 +129,31 @@ function Nav(props) {
                 {t("common:contact")}
               </p>
             </Link>
+          </div>
+          <div className={styles.switchLangHidden}>
+            <div className={styles.langSelect}>
+              <Link href={asPath} locale="es">
+                <a
+                  className={
+                    locale === "en" ? styles.langSelect : styles.langActive
+                  }
+                >
+                  Español
+                </a>
+              </Link>
+            </div>
+            <p className={styles.langDivider}>|</p>
+            <div className={styles.langSelect}>
+              <Link href={asPath} locale="en">
+                <a
+                  className={
+                    locale === "es" ? styles.langSelect : styles.langActive
+                  }
+                >
+                  English
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
