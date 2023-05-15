@@ -31,7 +31,6 @@ function HomeContent() {
               blurDataURL="/meeting.jpg"
             />
           </div>
-          <p>{t("home:intro")}</p>
         </div>
         <p>{t("home:content")}</p>
       </div>
