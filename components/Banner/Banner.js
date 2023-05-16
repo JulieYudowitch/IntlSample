@@ -17,8 +17,8 @@ function Banner() {
         />
       </div>
       <h1 className={styles.homeTitle}>INTERNATIONAL BUSINESS</h1>
-      <h2 className={styles.homeTitleImgDescript}>{t("common:description")}</h2>
-      <h2 className={styles.homeTitleDescript}>{t("common:description")}</h2>
+      <p className={styles.homeTitleImgDescript}>{t("common:description")}</p>
+      <p className={styles.homeTitleDescript}>{t("common:description")}</p>
       <div className={styles.bannerImg2Container}>
         <Image
           src="/banner2.webp"

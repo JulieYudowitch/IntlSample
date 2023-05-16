@@ -2,6 +2,7 @@
   color: #0e1d30;
   width: 100%;
   position: relative;
+  padding: 0px 10px 0px 10px;
 }
 
 .bannerImgContainer {
@@ -123,10 +124,23 @@
     display: flex;
   }
 }
+
 @media (max-width: 400px) {
-  .homeTitle {
-    font-size: 40px;
-  }
+.homeTitle {
+  font-size: 40px;
+}
+.homeTitleDescript {
+  font-size: 20px;
+}
+}
+
+@media (max-width: 350px) {
+.homeTitle {
+  font-size: 35px;
+}
+.homeTitleDescript {
+  font-size: 18px;
+}
 }
 
 
