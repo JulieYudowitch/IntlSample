@@ -27,7 +27,8 @@ export default function FourOhFour(props) {
 
       <Nav />
       <div className={styles.fourOhFourPageContent}>
-        <h1>{t("404:notFound")}</h1>
+        <h1>404</h1>
+        <h2>{t("404:notFound")}</h2>
         <Link href="/">
           <a>{t("404:return")}</a>
         </Link>

@@ -2,6 +2,7 @@
   display: flex;
   color: #092649;
   padding: 10px 20px 5px 15px;
+  border-bottom: 1px solid #00bf63;
 }
 
 .leftSide {
@@ -33,7 +34,7 @@
 }
 
 .langActive {
-  color: #1b5b3c;
+  color: #00bf63;
   margin-left: 5px;
 }
 
@@ -147,7 +148,6 @@ font-size: 18px;
 
 @media (max-width: 650px) {
   .navBarCont {
-    border-bottom: 1px solid #00bf63;
     padding-bottom: 3px;
   }
 }

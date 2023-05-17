@@ -1,3 +1,28 @@
 .fourOhFourPageContent {
-    padding: 250px;
+    padding: 150px 20px;
+    color: #092649;
+    
+    }
+.fourOhFourPageContent a {
+    font-size: 45px;
+   color: #092649;
+   cursor: pointer;
+   -webkit-text-stroke: .5px #00bf63;
+}
+
+.fourOhFourPageContent a:hover {
+   color: #00bf63;
+   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .fourOhFourPageContent {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .fourOhFourPageContent a {
+        font-size: 35px;
+    }
 }
