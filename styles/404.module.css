@@ -1,28 +1,72 @@
+.fourOhFourPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.img404 {
+    opacity: 70%;
+}
 .fourOhFourPageContent {
-    padding: 150px 20px;
-    color: #092649;
-    
-    }
+  color: #092649;
+  background-color: white;
+  border: 2px solid #092649;
+  box-shadow: 2px 1px #092649;
+  border-radius: 20px;
+  position: absolute;
+  padding: 20px;  
+}
+.fourOhFourPageContent h1 {
+  margin: 0;
+}
+.fourOhFourPageContent h2 {
+  margin-top: 0;
+}
 .fourOhFourPageContent a {
-    font-size: 45px;
-   color: #092649;
-   cursor: pointer;
-   -webkit-text-stroke: .5px #00bf63;
+  font-size: 45px;
+  color: #092649;
+  cursor: pointer;
+  text-shadow: 1px 1px #00bf63;
 }
 
 .fourOhFourPageContent a:hover {
-   color: #00bf63;
-   cursor: pointer;
+  color: #00bf63;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
-    .fourOhFourPageContent {
-        font-size: 20px;
-    }
+  .fourOhFourPageContent {
+    
+  }
+}
+
+@media (max-width: 650px) {
+    .fourOhFourPageContent a {
+ font-size: 35px;
+}
+.fourOhFourPageContent h1 {
+    font-size: 30px;
+  }
+  .fourOhFourPageContent h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 550px) {
+.fourOhFourPageContent {
+    max-width: 300px;
+}
 }
 
 @media (max-width: 350px) {
-    .fourOhFourPageContent a {
-        font-size: 35px;
+    .fourOhFourPageContent h2 {
+        font-size: 22px;
     }
+  .fourOhFourPageContent a {
+    font-size: 30px;
+  }
+  .fourOhFourPageContent {
+    max-width: 250px;
+  }
 }
+

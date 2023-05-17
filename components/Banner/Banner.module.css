@@ -19,7 +19,7 @@
 
 .homeTitle {
   display: none;
-  -webkit-text-stroke: .5px #00bf63;
+  text-shadow: 1px 1px #00bf63;
 }
 
 .homeTitleImgDescript {
@@ -32,7 +32,7 @@
   left: 2%;
   right: 2%;
   color: white;
-  -webkit-text-stroke: .5px #00bf63;
+  text-shadow: 1px 1px #00bf63;
 }
 
 .homeTitleDescript {

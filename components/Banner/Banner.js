@@ -8,7 +8,7 @@ function Banner() {
     <header className={styles.banner}>
       <div className={styles.bannerImgContainer}>
         <Image
-          src="/banner.webp"
+          src="/banner9.webp"
           alt=""
           priority
           width="1920"
