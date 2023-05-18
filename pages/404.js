@@ -19,26 +19,28 @@ export async function getStaticProps({ locale }) {
 export default function FourOhFour(props) {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className={styles.fourOhFourPage}>
       <Head>
         <meta name="robots" content="noindex, nofollow" />
         <meta name="description" content={t("404:description")} />
         <title>{t("404:description")}</title>
       </Head>
       <Nav />
-      <div className={styles.fourOhFourPage}>
-        <Image src="/flags.jpg" alt="" width="1920" height="1357" className={styles.img404}/>
+     
+        
+          <div className={styles.fourOhFourPageContent}>
+            <h1>404</h1>
+            <h2>{t("404:notFound")}</h2>
+            <Link href="/">
+              <a>{t("404:return")}</a>
+            </Link>
+          </div>
+       
+      
 
-        <div className={styles.fourOhFourPageContent}>
-          <h1>404</h1>
-          <h2>{t("404:notFound")}</h2>
-          <Link href="/">
-            <a>{t("404:return")}</a>
-          </Link>
-        </div>
+      <div className={styles.footer}>
+        <Footer />
       </div>
-
-      <Footer />
     </div>
   );
 }

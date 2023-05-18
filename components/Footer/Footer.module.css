@@ -1,101 +1,43 @@
 .footer {
-    border-top: 0.5px solid rgb(14, 14, 14);
-    color: #0e1d30;
+  border-top: 0.5px solid rgb(14, 14, 14);
+  color: #0e1d30;
 }
-.footContent {   
-    background-color: #a0a3a2;
-    margin: 0;
-    padding: 80px;
+.footContent {
+  background-color: #d3d4d4;
+  margin: 0;
+  padding: 30px 10px 20px;
 }
 
 .socialLinks {
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
 }
 
 .socialLink {
-    padding: 20px;    
-}
-
-.infoContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   align-items: center; 
-}
-
-.info {
-       color: rgb(99, 36, 36);
-    padding: 20px 0px 20px 0px;
-    text-align: center;
+  padding: 0px 15px;
 }
 
 .copyright {
-    font-size: 20px;
-    
+  font-size: 20px;
+  margin: 0;
 }
 
-.payMethods {    
-    display: flex;
-    padding-bottom: 20px;
-    width: 20%;
-    margin: auto;
-}
-@media (max-width: 1700px) {
-.payMethods {
-    width: 25%;
-}
-}
-
-@media (max-width: 1400px) {
-.payMethods {
-    width: 30%;
-}
-}
-
-@media (max-width: 1200px) {
-.payMethods {
-    width: 35%;
-}
-}
-@media (max-width: 1000px) {
-    .payMethods {
-        width: 40%;
-    }
-}
 @media (max-width: 800px) {
-   .info {
-       font-size: 16px;
-   } 
-
-   .copyright {
+  .copyright {
     font-size: 14px;
-}
-}
-
-@media (max-width: 700px) {
-    .payMethods {
-        width: 50%;
-    }
-}
-
-@media (max-width: 500px) {
-    .payMethods {
-        width: 60%;
-    }
-}
-
-@media (max-width: 450px) {
-
-.payMethods {
-    width: 80%;
-}
+  }
 }
 
 @media (max-width: 350px) {
-.payMethods {
-    width: 95%;
+  .footContent {
+    padding: 30px 50px 20px;
+  }
 }
+
+@media (max-width: 289px) {
+  .footContent {
+    padding: 30px 40px 20px;
+  }
 }

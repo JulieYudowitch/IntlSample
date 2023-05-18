@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
+  faTwitter,
+  faFacebook,
+  faInstagram
 } from "@fortawesome/free-brands-svg-icons";
-import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
 function Footer() {
@@ -24,7 +26,7 @@ function Footer() {
               className={styles.socialLink}
               color="#0e1d30"
               icon={faGithub}
-              size="2x"
+              size="xl"
             />
           </a>
           <a
@@ -38,7 +40,49 @@ function Footer() {
               className={styles.socialLink}
               color="#0e1d30"
               icon={faLinkedin}
-              size="2x"
+              size="xl"
+            />
+          </a>
+          <a
+            href="https://twitter.com/YudowitchJulie"
+            passHref
+            className={styles.navlink}
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className={styles.socialLink}
+              color="#0e1d30"
+              icon={faTwitter}
+              size="xl"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/Julieyudowitch"
+            passHref
+            className={styles.navlink}
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className={styles.socialLink}
+              color="#0e1d30"
+              icon={faFacebook}
+              size="xl"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/julieyudowitch"
+            passHref
+            className={styles.navlink}
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon
+              className={styles.socialLink}
+              color="#0e1d30"
+              icon={faInstagram}
+              size="xl"
             />
           </a>
         </div>

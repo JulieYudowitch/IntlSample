@@ -1,9 +1,14 @@
 .fourOhFourPage {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0px;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("/flags.jpg");
+    background-size: contain;
 }
+.footer {
+    margin-top: auto;
+}
+
 .img404 {
     opacity: 70%;
 }
@@ -13,8 +18,11 @@
   border: 2px solid #092649;
   box-shadow: 2px 1px #092649;
   border-radius: 20px;
-  position: absolute;
-  padding: 20px;  
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ margin: auto; 
 }
 .fourOhFourPageContent h1 {
   margin: 0;
@@ -53,6 +61,11 @@
 }
 
 @media (max-width: 550px) {
+.fourOhFourPageContent {
+    max-width: 350px;
+}
+}
+@media (max-width: 400px) {
 .fourOhFourPageContent {
     max-width: 300px;
 }
