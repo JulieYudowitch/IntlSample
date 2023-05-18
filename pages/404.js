@@ -26,17 +26,17 @@ export default function FourOhFour(props) {
         <title>{t("404:description")}</title>
       </Head>
       <Nav />
-     
-        
-          <div className={styles.fourOhFourPageContent}>
-            <h1>404</h1>
-            <h2>{t("404:notFound")}</h2>
-            <Link href="/">
-              <a>{t("404:return")}</a>
-            </Link>
-          </div>
-       
-      
+      <div className={styles.spacer}></div>
+
+      <div className={styles.fourOhFourPageContent}>
+        <h1>404</h1>
+        <h2>{t("404:notFound")}</h2>
+        <Link href="/">
+          <a>{t("404:return")}</a>
+        </Link>
+      </div>
+
+      <div className={styles.spacer}></div>
 
       <div className={styles.footer}>
         <Footer />
