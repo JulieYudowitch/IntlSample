@@ -5,18 +5,18 @@
 .footContent {
   background-color: #d3d4d4;
   margin: 0;
-  padding: 30px 10px 20px;
+  padding: 15px 10px 20px;
 }
 
 .socialLinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
 .socialLink {
-  padding: 0px 15px;
+  padding: 15px 15px;
 }
 
 .copyright {
