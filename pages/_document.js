@@ -17,13 +17,13 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <meta property="og:image" content="./" />
           <meta property="og:url" content="/project.webp" />
-          <meta property="og:image:width" content="1447" />
-          <meta property="og:image:height" content="860" />
+          <meta property="og:image:width" content="886" />
+          <meta property="og:image:height" content="545" />
           <meta property="og:image:alt" content="" />
           <meta property="og:type" content="website" />
           <meta
             name="description"
-            content="Serving both English and Spanish speaking customers"
+            content="Serving websites in multiple languages"
           />
           <link rel="icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/logo192.png" />
