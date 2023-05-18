@@ -18,7 +18,7 @@
   border: 2px solid #092649;
   box-shadow: 2px 1px #092649;
   border-radius: 20px;
-  padding: 20px; 
+  padding: 120px 80px; 
   display: flex;
   flex-direction: column;
  justify-content: center;
@@ -42,12 +42,17 @@
   cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .fourOhFourPageContent {
-    
+    padding: 120px 50px; 
   }
 }
 
+@media (max-width: 750px) {
+  .fourOhFourPageContent {
+    padding: 120px 40px; 
+  }
+}
 @media (max-width: 650px) {
     .fourOhFourPageContent a {
  font-size: 35px;
@@ -68,6 +73,7 @@
 @media (max-width: 400px) {
 .fourOhFourPageContent {
     max-width: 300px;
+    padding: 80px 20px;
 }
 }
 
@@ -77,9 +83,11 @@
     }
   .fourOhFourPageContent a {
     font-size: 30px;
+    
   }
   .fourOhFourPageContent {
     max-width: 250px;
+    padding: 50px 20px;
   }
 }
 
