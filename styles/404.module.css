@@ -4,6 +4,7 @@
     min-height: 100vh;
     background-image: url("/flags.jpg");
     background-size: contain;
+    
 }
 .footer {
     margin-top: auto;
