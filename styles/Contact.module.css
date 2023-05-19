@@ -46,7 +46,8 @@ overflow: hidden;
   border: 1px solid #092649;
   border-radius: 1%;
   box-shadow: 1px .1px #00bf63;
-  width: 100%;  
+  width: 100%;
+  margin: 0 0px 10px;
 }
 
 .messageField {
@@ -58,7 +59,7 @@ overflow: hidden;
   border-radius: 1%;
   box-shadow: 1px .1px #00bf63;
   width: 100%;
-  margin: 0;
+  margin: 0px 0px 10px;
 }
 
 .send {
