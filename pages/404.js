@@ -22,8 +22,8 @@ export default function FourOhFour(props) {
     <div className={styles.fourOhFourPage}>
       <Head>
         <meta name="robots" content="noindex, nofollow" />
-        <meta name="description" content={t("404:description")} />
-        <title>{t("404:description")}</title>
+        <meta name="description" content={t("404:tagTitle")} />
+        <title>{t("404:tagTitle")}</title>
       </Head>
       <Nav />
       <div className={styles.spacer}></div>
