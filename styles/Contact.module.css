@@ -9,7 +9,7 @@ display: flex;
 justify-content: space-between;
 }
 .mapContainer {
-  max-height: 533px;
+  max-height: 553px;
   overflow: hidden;
   border: 1px solid #092649;  
   width: 49%;
@@ -47,7 +47,7 @@ overflow: hidden;
   border-radius: 1%;
   box-shadow: 1px .1px #00bf63;
   width: 100%;
-  margin: 0 0px 10px;
+  margin: 0 0px 20px;
 }
 
 .messageField {
@@ -58,11 +58,10 @@ overflow: hidden;
   border-radius: 1%;
   box-shadow: 1px .1px #00bf63;
   width: 100%;
-  margin: 0px 0px 10px;
+  margin: 0px 0px 20px;
 }
 
 .send {
-  margin: 20px;
   padding: 15px;
   width: 100px;
   cursor: pointer;
