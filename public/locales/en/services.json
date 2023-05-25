@@ -1,3 +1,10 @@
 {
-    "tagTitle":"Services | Intl Business"
+    "tagTitle":"Services | Intl Business",
+    "seo": "SEO",
+    "seoDetails": "We build with search engine optimization in mind from the beginning",
+    "static": "Static Website",
+    "staticDetails": "muliple pages, forms, maps, internationalized",
+    "design": "Web Design",
+    "designDetails": "If you don't have a layout in mind let us handle it."
+
 }

@@ -25,7 +25,21 @@ function Services(props) {
         <title>{t("services:tagTitle")}</title>
       </Head>
       <Nav />
-      <div className={styles.servicesPage}></div>
+
+      <div className={styles.servicesContent}>
+        <div className={styles.static}>
+          <h1>{t("services:static")}</h1>
+          <p>{t("services:staticDetails")}</p>
+        </div>
+        <div className={styles.seo}>
+          <h1>{t("services:seo")}</h1>
+          <p>{t("services:seoDetails")}</p>
+        </div>
+        <div className={styles.design}>
+          <h1>{t("services:design")}</h1>
+          <p>{t("services:designDetails")}</p>
+        </div>
+      </div>
       <div className={styles.footer}>
         <Footer />
       </div>

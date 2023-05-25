@@ -11,15 +11,25 @@
 .missionBox { 
   background-color: white;
   color: black;
-  width: 500px;
+  width: 800px;
   margin: auto;
-  padding: 80px 20px;
+  padding: 80px 40px;
   border-radius: 20px;
   border: 2px solid #092649;
   box-shadow: 2px 1px #092649;
 }
 .footer {
   margin-top: auto;
+}
+@media (max-width: 1000px) {
+  .missionBox {
+    width: 700px
+  }
+}
+@media (max-width: 800px) {
+  .missionBox {
+    width: 500px
+  }
 }
 
 @media (max-width: 600px) {

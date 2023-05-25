@@ -3,6 +3,24 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.static {
+padding: 20px;
+}
+.design {
+padding: 20px;
+}
+.seo {
+padding: 20px;
+}
 .footer {
     margin-top: auto;
+}
+.servicesContent {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .servicesContent {
+        display: block;
+    }
 }
