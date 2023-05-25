@@ -18,17 +18,17 @@ export async function getStaticProps({ locale }) {
 function About(props) {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className={styles.aboutPage}>
       <Head>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={t("about:tagTitle")} />
         <title>{t("about:tagTitle")}</title>
       </Head>
       <Nav />
-      <div className={styles.aboutPage}>
-        
+      <div className={styles.aboutPageContent}></div>
+      <div className={styles.footer}>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

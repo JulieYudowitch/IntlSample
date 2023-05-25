@@ -18,7 +18,7 @@ export async function getStaticProps({ locale }) {
 function Services(props) {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className={styles.servicesPage}>
       <Head>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={t("services:tagTitle")} />
@@ -26,7 +26,9 @@ function Services(props) {
       </Head>
       <Nav />
       <div className={styles.servicesPage}></div>
-      <Footer />
+      <div className={styles.footer}>
+        <Footer />
+      </div>
     </div>
   );
 }
