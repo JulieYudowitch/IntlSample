@@ -108,13 +108,13 @@ function Nav(props) {
           </div>
           <div>
             <Link
-              href="/shop"
+              href="/services"
               ref={menuref}
               passHref
               className={styles.navLink}
             >
               <p className={styles.navLinkName} onClick={handleMenuClick}>
-                {t("common:shop")}
+                {t("common:services")}
               </p>
             </Link>
           </div>

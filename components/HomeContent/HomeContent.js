@@ -7,32 +7,49 @@ function HomeContent() {
   return (
     <div className={styles.homeGrid}>
       <div className={styles.homeImgContainer}>
-        <div className={styles.homeImg}>
-          <Image
-            src="/job.jpg"
-            alt=""
-            width="1920"
-            height="1156"
-            placeholder="blur"
-            blurDataURL="/job.jpg"
-          />
-        </div>
-        <p>{t("home:intro")}</p>
+        <Image
+          src="/hands.jpg"
+          alt=""
+          width="1280"
+          height="854"
+          placeholder="blur"
+          blurDataURL="/hands.jpg"
+          className={styles.homeImg}
+        />
       </div>
       <div className={styles.homeIntroCard}>
-        <div className={styles.homeImgContainer}>
-          <div className={styles.homeImg}>
-            <Image
-              src="/meeting.jpg"
-              alt=""
-              width="1920"
-              height="1280"
-              placeholder="blur"
-              blurDataURL="/meeting.jpg"
-            />
-          </div>
+        <h1 className={styles.homeIntro}>{t("home:intro")}</h1>
+        <p className={styles.homeContent}>{t("home:content")}</p>
+      </div>
+      <div className={styles.logoBox}>
+        <div className={styles.nextImgContainer}>
+          <Image
+            src="/next.webp"
+            alt=""
+            width="1040"
+            height="489"
+            placeholder="blur"
+            blurDataURL="/next.webp"
+            className={styles.nextImg}
+          />
         </div>
-        <p>{t("home:content")}</p>
+        <div className={styles.netlifyImgContainer}>
+          <Image
+            src="/netlify.png"
+            alt=""
+            width="1582"
+            height="441"
+            placeholder="blur"
+            blurDataURL="/netlify.png"
+            className={styles.netlifyImg}
+          />
+        </div>
+      </div>
+
+      <div className={styles.nextInfoCard}>
+        <h1 className={styles.nextIntro}>{t("home:nextIntro")}</h1>
+        <p className={styles.nextContent}>{t("home:nextContent")}</p>
+        <p className={styles.netlifyLimits}>{t("home:netlifyLimits")}</p>
       </div>
     </div>
   );

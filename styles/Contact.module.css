@@ -34,7 +34,7 @@ overflow: hidden;
   border: 1px solid #092649;
   justify-content: center;
   align-items: center; 
-  background-color: rgb(0, 191, 99, .4);
+ background-color: #d3d4d4;
   padding: 30px;
  width: 49%;
   color: #092649;
@@ -45,7 +45,7 @@ overflow: hidden;
   text-align: left;
   border: 1px solid #092649;
   border-radius: 1%;
-  box-shadow: 1px .1px #00bf63;
+  box-shadow: 1px .1px rgb(191, 231, 212);
   width: 100%;
   margin: 0 0px 20px;
 }
@@ -59,7 +59,7 @@ font-size: 15px;
   text-align: left;
   border: 1px solid #092649;
   border-radius: 1%;
-  box-shadow: 1px .1px #00bf63;
+  box-shadow: 1px .1px rgb(191, 231, 212);
   width: 100%;
   margin: 0px 0px 20px;
 }
