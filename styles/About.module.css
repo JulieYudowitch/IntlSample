@@ -5,9 +5,17 @@
 }
 .aboutPageContent {
   background-image: url('/flags.jpg');
-  background-repeat: repeat;
-  opacity: .6;
+  background-repeat: repeat-x;
+  background-size: contain;
   height: 1200px
+}
+.missionBox {
+  background-color: white;
+  color: black;
+  width: 500px;
+  margin: auto;
+  padding: 80px 0px;
+  border-radius: 20px;
 }
 .footer {
   margin-top: auto;

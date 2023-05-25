@@ -25,7 +25,12 @@ function About(props) {
         <title>{t("about:tagTitle")}</title>
       </Head>
       <Nav />
-      <div className={styles.aboutPageContent}></div>
+      <div className={styles.aboutPageContent}>
+        <div className={styles.missionBox}>
+          <h1 className={styles.missionTitle}>{t("about:missionTitle")}</h1>
+          <p className={styles.missionContent}>{t("about:missionContent")}</p>
+        </div>
+      </div>
       <div className={styles.footer}>
         <Footer />
       </div>

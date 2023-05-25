@@ -19,7 +19,7 @@ margin: auto;
   }
 
 .homeImg {
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .homeIntro {
@@ -41,7 +41,7 @@ text-align: justify;
   margin: 30px 0px 0px;
 }
 .nextImg {
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .nextIntro {
   grid-area: nxtIntro;
