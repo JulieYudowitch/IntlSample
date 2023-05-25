@@ -106,20 +106,22 @@ text-align: justify;
   width: 90%;
 }
 .homeIntro {
-  margin-bottom: 10px;
+  margin: 30px 0px 30px;
+  font-size: 38px;
 }
 .homeContent {
-  margin: 10px 0px 20px;
+  margin: 10px 0px 0px;
 }
 .nextImgContainer {
   width: 80%;
   margin: auto;
 }
 .nextIntro {
-  margin: 20px 0px 20px;
+  margin: 30px 0px 30px;
+   font-size: 38px;
 }
 .nextContent {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .nextImgContainer {
 width: 95%;
