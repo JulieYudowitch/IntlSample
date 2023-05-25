@@ -102,6 +102,9 @@ text-align: justify;
   padding: 10px 5px 40px;
   column-gap: 0;
 }
+.homeImgContainer {
+  width: 90%;
+}
 .homeIntro {
   margin-bottom: 10px;
 }
