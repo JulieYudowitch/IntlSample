@@ -18,7 +18,7 @@ function HomeContent() {
         />
       </div>
       <div className={styles.homeIntroCard}>
-        <h1 className={styles.homeIntro}>{t("home:intro")}</h1>
+        <h2 className={styles.homeIntro}>{t("home:intro")}</h2>
         <p className={styles.homeContent}>{t("home:content")}</p>
       </div>
       <div className={styles.logoBox}>
@@ -47,7 +47,7 @@ function HomeContent() {
       </div>
 
       <div className={styles.nextInfoCard}>
-        <h1 className={styles.nextIntro}>{t("home:nextIntro")}</h1>
+        <h2 className={styles.nextIntro}>{t("home:nextIntro")}</h2>
         <p className={styles.nextContent}>{t("home:nextContent")}</p>
         <p className={styles.netlifyLimits}>{t("home:netlifyLimits")}</p>
       </div>
