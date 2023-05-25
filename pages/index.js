@@ -20,7 +20,7 @@ export async function getStaticProps({ locale }) {
 export default function Home(props) {
   const { t } = useTranslation();
   return (
-    <div className={styles.homePage} id="pageTop">
+    <div className={styles.homePage}>
       <Head>
         <meta property="og:title" content="International Business" />
         <meta property="og:image" content="./project.webp" />
@@ -45,7 +45,9 @@ export default function Home(props) {
       <Nav />
       <Banner className={styles.banner} />
       <HomeContent />
-      <Footer />
+      <div className={styles.footer}>
+        <Footer />
+      </div>
     </div>
   );
 }
