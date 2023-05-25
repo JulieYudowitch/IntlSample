@@ -1,8 +1,13 @@
 .homeGrid {
   display: grid;
-  grid-template-areas: "txt img"
+  grid-template-areas: "intro img"
+  "cont img"
+  "next nxtIntro"
+  "next nxtCont"
+  "ntlfy limits"
  ;
-  gap: 20px;
+  column-gap: 40px;
+  row-gap: 10px;
   padding: 20px
 }
   .homeImgContainer {
@@ -12,64 +17,61 @@ grid-area: img;
 .homeImg {
   border-radius: 15px;
 }
-.homeIntroCard {
-  grid-area: txt;
-}
+
 .homeIntro {
-  margin: 20px 0px 0px 0px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+    grid-area: intro;
 }
 .homeContent {
 text-align: justify;
+ grid-area: cont;
+ margin: 0;
+ padding: 0px 20px
 }
 .nextImgContainer  {
+  grid-area: next;
+  margin: 20px 0px;
 }
 .nextImg {
   border-radius: 15px;
 }
+.nextIntro {
+  grid-area: nxtIntro;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
 .nextContent {
   text-align: justify;
+  grid-area: nxtCont;
+  margin: 0;
+  padding: 0px 20px
 }
 .netlifyImgContainer {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  grid-area: ntlfy;
 }
 .netlifyLimits {
   font-style: italic;
-  font-size: medium;
+  font-size: 20px;
+  grid-area: limits;
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  margin: 0;
 }
 @media (max-width: 750px) {
  .homeGrid {
   grid-template-areas: "intro"
   "img"
-  "cont"
-  "nxtIntro"
+  "cont"  
   "next"
   "ntlfy"
+  "nxtIntro"
   "nxtCont"
   "limits";
-}
-.homeIntroCard {
-  grid-area: unset;
-}
-.homeIntro {
-  grid-area: intro;
-}
-.homeContent {
-  grid-area: cont;
-}
-.nextIntro {
-grid-area: nxtIntro;
-}
-.nextContent{
-  grid-area: nxtCont;
-}
-.nextImgContainer {
-grid-area: next;
-}
-.netlifyImgContainer{
-  grid-area: ntlfy;
-}
-.netlifyLimits {
-  grid-area: limits;
 }
 }

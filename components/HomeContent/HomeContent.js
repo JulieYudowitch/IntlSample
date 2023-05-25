@@ -17,11 +17,10 @@ function HomeContent() {
           className={styles.homeImg}
         />
       </div>
-      <div className={styles.homeIntroCard}>
+      
         <h2 className={styles.homeIntro}>{t("home:intro")}</h2>
         <p className={styles.homeContent}>{t("home:content")}</p>
-      </div>
-      <div className={styles.logoBox}>
+      
         <div className={styles.nextImgContainer}>
           <Image
             src="/next.webp"
@@ -44,13 +43,13 @@ function HomeContent() {
             className={styles.netlifyImg}
           />
         </div>
-      </div>
+    
 
-      <div className={styles.nextInfoCard}>
+      
         <h2 className={styles.nextIntro}>{t("home:nextIntro")}</h2>
         <p className={styles.nextContent}>{t("home:nextContent")}</p>
         <p className={styles.netlifyLimits}>{t("home:netlifyLimits")}</p>
-      </div>
+     
     </div>
   );
 }
