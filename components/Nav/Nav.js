@@ -106,7 +106,7 @@ function Nav(props) {
               </p>
             </Link>
           </div>
-          <div>
+          {/*<div>
             <Link
               href="/services"
               ref={menuref}
@@ -117,7 +117,7 @@ function Nav(props) {
                 {t("common:services")}
               </p>
             </Link>
-          </div>
+              </div>*/}
           <div>
             <Link
               href="/contact"
